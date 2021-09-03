@@ -158,7 +158,7 @@ def train(args, nums):
 				best_model = copy.deepcopy(model.state_dict())
 				torch.save(best_model, f'{args.log_dir}best_model_{model_name[args.model]}{nums}.pth')
 				print(f'*** best_model_{model_name[args.model]}{nums} save!')
-			print('-' * 60)
+			# print('-' * 60)
 
 	return model.state_dict()
 
