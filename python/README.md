@@ -74,6 +74,7 @@
 ├── inference_sub.py
 ├── train_sub.py
 ├── hyperParamTune.py
+├── requirements.txt
 └── run.sh
 ```
 
